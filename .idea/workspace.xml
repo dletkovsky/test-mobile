@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00e766c5-8017-4a3d-9fb0-ab1d98092d33" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/features/step_definitions/support/env.rb" afterDir="false" />
-    </list>
+    <list default="true" id="00e766c5-8017-4a3d-9fb0-ab1d98092d33" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,12 +144,20 @@
       <option name="presentableId" value="Default" />
       <updated>1526479354300</updated>
       <workItem from="1526479358126" duration="7114000" />
-      <workItem from="1526544713997" duration="2210000" />
+      <workItem from="1526544713997" duration="2454000" />
     </task>
+    <task id="LOCAL-00001" summary="add project">
+      <created>1526547465647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526547465647</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9324000" />
+    <option name="totallyTimeSpent" value="9568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -184,6 +190,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/features/area_screen.feature">
