@@ -11,13 +11,14 @@ Feature: User is able to convert area units
 #        When I click on Got it button
 #        Then I land on Area screen
 
-      @wip
+
       Scenario: User is able to swap values
           Given I see "Sq Kilometre" in From header
           And I see "Sq Metre" in To header
           When I click on Swap button
           Then I see "Sq Metre" in From header
           And I see "Sq Kilometre" in To header
+
 
 
       Scenario Outline: User is able to convert default units
@@ -45,3 +46,12 @@ Feature: User is able to convert area units
           And I get "10000" in To field
 
 
+          @wip
+          Scenario Outline: Check conversion
+            When I select "<target>" from left column
+            And I get "<result>" in To field
+          Examples:
+          |target     |result|
+          |Hectare    |10000|
+          |Sq Yard    |0.8361|
+          |Acre       |4046.8564|
